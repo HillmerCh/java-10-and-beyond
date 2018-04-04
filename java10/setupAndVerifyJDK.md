@@ -2,10 +2,45 @@
 
 #### Download and install latest version of the JDK 10 EA
 
+When this guide was written (APRIL 2018) JDK 10 EA was only available as .tar.gz file for Linux, MacOSX and Windows platform. Using one of the .tar.gz file you install JDK 10 EA in three steps: Downloand, Unzip and configure ```JAVA_HOME``` and ```PATH```.
+
+
 - Download JDK 10 EA
   
   - Early Access build of JDK10 is available at [http://jdk.java.net/10/](http://jdk.java.net/10/)
 
+- Unzip files
+
+    - Linux and MacOSX
+    
+      `tar -xvf openjdk-10_osx-x64_bin.tar`
+
+    - Windows
+    
+      You can unzip the .tar.gz file using a tool as 7z, WinRar
+    
+- Configure
+  
+  Next steps show how can you configure JDK 10 to use on a single console if you want to set JDK 10 as your default JDK please move to the Alternative step
+
+    - Linux and MacOSX 
+       -  `export JAVA_HOME=/Users/hacm/Downloads/jdk-10.jdk/Contents/Home`
+
+    - Windows
+       -  `set JAVA_HOME=/Users/hacm/Downloads/jdk-10.jdk/Contents/Home`
+ 
+ 
+ ##### Alternative to set JDK 10 as default JDK
+ 
+    - Linux and MacOSX 
+      
+      xxxx
+
+    - Windows
+    
+      Setting enviroment variables
+
+ 
 - Install JDK 10 EA
   
   - Install using a script
